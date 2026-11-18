@@ -147,7 +147,7 @@ object ProMediaRenderEngine {
                 -0.35f, 2.40f, -0.35f,
                 0f, -0.35f, 0f
             )
-            videoEffects.add(Convolution(sharpenKernel))
+            videoEffects.add(Contrast(0.25f))
         }
 
         val editedMediaItem = EditedMediaItem.Builder(Media3Item.fromUri(inputUri))
