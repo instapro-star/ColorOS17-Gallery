@@ -8,7 +8,7 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.coloros.gallery17"
+        applicationId = "com.instapro.gallery17"
         minSdk = 26
         targetSdk = 34
         versionCode = 1
